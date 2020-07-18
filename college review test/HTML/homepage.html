@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="icon" href="../Images/Homepage/LOGO.PNG" type="image/x-icon">
+	<title>
+		Home | College Review
+
+	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../CSS/homepage.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="../Javascript/homepage.js"> </script>
+</head>
+
+<body>
+
+	<header class="opening linkage clearfix">
+		<div class="first word clearfix">
+			<strong>COLLEGE REVIEW</strong>
+
+			CR
+
+			<ul class="ho">
+				<li><a href="rvce.html" style="text-decoration: none; color:orange;">Home</a></li>
+				<li><a href="rvce.html" style="text-decoration: none; color:orange;">Colleges</a></li>
+				<li><a href="rvce.html" style="text-decoration: none; color:orange;">Exams</a></li>
+				<li><a href="rvce.html" style="text-decoration: none; color:orange;">About us</a></li>
+			</ul>
+		</div>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<h1>KNOW MORE, DO MORE</h1>
+		<br>
+		<div class="topnav">
+			<form action="/action_page.php">
+				<input type="text" placeholder="Search.." name="search" size="40">
+				<span class="ic">
+					<a href="#"><i class="fa fa-search"></i></a></span>
+			</form>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br><br><br>
+
+		</div>
+	</header>
+	<div class="second">
+		<br>
+
+		<strong class="gg"><u></u></strong><br><br>
+	</div>
+	<br><br><br>
+	<div class="slideshow-container">
+
+
+		<div class="mySlides fade">
+			<div class="numbertext">1 / 5</div>
+			<img src="../Images/Homepage/thapar.jpg" style="width:100%">
+			<div class="text">THAPAR</div>
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext">2 / 5</div>
+			<img src="../Images/Homepage/vit_vellore.jpg" style="width:100%">
+			<div class="text">VIT VELLORE</div>
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext">3 / 5</div>
+			<img src="../Images/Homepage/bits_pilani.jpg" style="width:100%">
+			<div class="text">BITS PILANI</div>
+		</div>
+		<div class="mySlides fade">
+			<div class="numbertext">4 / 5</div>
+			<img src="../Images/Homepage/rv_college.jpg" style="width:100%">
+			<div class="text">RV COLLEGE OF ENGINEERING</div>
+		</div>
+		<div class="mySlides fade">
+			<div class="numbertext">5 / 5</div>
+			<img src="../Images/Homepage/manipal.jpg" style="width:100%">
+			<div class="text">MANIPAL INSTITUTE OF TECHNOLOGY</div>
+		</div>
+
+
+
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+	</div>
+	<br>
+	<br>
+	<strong class="kk">TAKE DECISION</strong>
+	<hr>
+	<br><br>
+	<div class="english">
+		<div class="cp-showcase">
+			<a href=#>
+				<strong class="pp">Colleges</strong>
+			</a>
+
+		</div>
+		<div class="cp">
+			<a href=#>
+				<strong class="pp">News</strong>
+			</a>
+		</div>
+		<div class="ff">
+			<a href=#>
+				<strong class="pp">Exams</strong>
+			</a>
+		</div>
+		<div class="gf">
+			<a href=#>
+				<strong class="pp">Cut-off</strong>
+			</a>
+		</div>
+	</div>
+	<br><br>
+	<br><br>
+
+	</div>
+	<br><br><br><br><br><br><br><br>
+	<div class="footer">
+		<div class="footer-list">
+			<ul>
+				<li>COLLEGE</li>
+				<li>EXAM</li>
+				<li>JEE MAIN</li>
+				<li>ABOUT US</li>
+				<li>JEE ADVANCE</li>
+			</ul>
+		</div>
+		<div class="footer-logo">
+			<img src="../Images/Homepage/LOGO.PNG" height="100px" width="100px">
+		</div>
+		<div class="dd">
+			<span class="ic"><a href="#" class="fa fa-facebook"></a>
+				<a href="#" class="fa fa-twitter"></a>
+				<a href="#" class="fa fa-instagram"></a>
+			</span></div><br><br>
+		<div class="dd">
+			College Review &copy Copyright 2020</div>
+	</div>
+	<script>
+	var myIndex = 0;
+	carousel();
+
+	function carousel() {
+	  var i;
+	  var x = document.getElementsByClassName("mySlides");
+	  for (i = 0; i < x.length; i++) {
+	    x[i].style.display = "none";
+	}
+	  myIndex++;
+	  if (myIndex > x.length) {myIndex = 1}
+	  x[myIndex-1].style.display = "block";
+	  setTimeout(carousel, 2000); // Change image every 2 seconds
+	}
+
+</script>
+</body>
+
+</html>
