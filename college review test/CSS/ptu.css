@@ -1,0 +1,133 @@
+/* header */
+.opening {
+    background-image: url('../Images/Homepage/header_background.jpg');
+}
+
+ul.ho {
+    float: right;
+}
+
+ul.ho>li {
+    float: left;
+    margin-right: 2em;
+    color: orange;
+    text-transform: uppercase;
+}
+
+.logo_name {
+    font-size: 3em;
+    color: white;
+}
+
+.logo_cr {
+    color: white;
+}
+
+.ptu_logo {
+    margin-left: 40%;
+    background-color: white;
+}
+
+/* main body */
+main {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+table, tr, td {
+    border: 1px solid black;
+}
+
+.overview {
+    border-collapse: collapse;
+    width: 70%;
+}
+
+.b {
+    list-style-type: circle;
+}
+
+.Institute_fee {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active, .collapsible:hover {
+    background-color: #555;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+.collapsible:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}
+
+/* Footer */
+footer {
+    background-image: url("../Images/Homepage/footer_background.jpg");
+    color: black;
+    height: 260px;
+    padding: 40px;
+}
+
+.footer-logo {
+    float: left;
+}
+
+.footer-list {
+    float: right;
+}
+
+.footer-list li {
+    padding-bottom: 20px;
+}
+
+.dd {
+    margin-left: 45%;
+}
+
+li {
+    list-style: none;
+}
+
+.ic {
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: black;
+    font-size: 40px;
+}
