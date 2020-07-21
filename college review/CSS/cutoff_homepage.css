@@ -1,0 +1,118 @@
+.clearfix:before,
+.clearfix:after
+{
+  content:" ";
+  display:table;
+}
+.clearfix:after
+{
+  clear:both;
+}
+body{
+  color:white;
+}
+strong
+{
+  font-size:3em;
+}
+.opening{
+  background-image:url('../Images/exam_page/header_background.jpg');
+}
+.one{
+  font-family:sans-serif;
+  
+  color:white;
+
+}
+li {
+  list-style: none;
+}
+ul.ho{
+  float:right;
+}
+ul.ho>li{
+  float:left;
+  margin-right:2em;
+  color:orange;
+  text-transform:uppercase;
+}
+.as
+{
+  margin-left:40%
+}
+.button {
+  padding: 5px 15px;
+  font-size: 10px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 0 5px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.upper{
+  margin-right:28%;
+  margin-left: 12%;
+  color:black;
+}
+.oo{
+  margin-top:-95%;
+  color:black;
+  margin-left:75%;
+  margin-right:5%;
+}
+.ic{
+  padding: 16px; 
+  transition: all 0.3s ease; 
+  color:black;
+  font-size: 40px;
+}
+.last
+{
+  background-image: url("sixth.jpg");
+  color:black;
+}
+.xx{
+  margin-left: 45%;
+}
+.dd{
+  margin-left: 45%;
+}
+.img {
+    border-radius: 50%;
+}
+.footer {
+  background-image: url("../Images/homepage/footer_background.jpg");
+  color: black;
+  height: 240px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}
+.dd{
+  margin-left: 45%;
+}
+/*.custom-posts-list li{
+  padding:6px 0}.custom-posts-list li:not(
+    :last-child){
+    padding:6px 0;border-bottom:1px solid #f2f2f2}.li-post-thumb{padding:0;height:60px;line-height:60px;vertical-align:middle}.li-post-thumb-img{border:#ccc solid 1px;border-radius:5px;padding:2px;max-width:55px;max-height:55px}.li-post-content{height:60px;padding:2px;padding-right:5px}.li-post-content h3{display:table-cell;width:auto;height:60px;vertical-align:middle}*/
